@@ -19,8 +19,8 @@
 <script>
     var pgn = '[Event "Alwoodley E team vs University B team"][Site "Alwoodley chess club"][Date "2020 March 11th"][White "Jain, Vishal"][Black "Kennedy, Liam"][Result "0-1"]1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Nh4 Bc5 5. Nf5 O-O 6. Nd5 Nxe4 7. Qg4 Ng5 8. f4 exf4 9. Nxf4 Re8+ 10. Be2 d6 11. Nd5 Kh8 12. d4 Bb6 13. Bxg5 f6 14. Bxf6 Rxe2+ 15. Kxe2 Qe8+ 16. Kd1 Qf7 17. Qxg7+ Qxg7 18. Bxg7+ Kg8 19. Nde3 Bxf5 20. Nxf5 Re8 21. Re1 Rxe1+ 22. Kxe1 Nd8 23. Bh6 Nf7 24. Ne7+ Kh8 25. Be3 c5 26. dxc5 dxc5 27. Nd5 Ba5+ 28. Bd2 Bxd2+ 29. Kxd2 Ne5 30. Ke2 b5 31. Ne3 h5 32. Rd1 Ng4 33. Nxg4 hxg4';
     var cfg = { 
-        pgn: pgn};
-    var board = pgnView('board', cfg);
+        pgn: pgn, pieceStyle: 'alpha', theme: 'default'};
+    var board = pgnEdit('board', cfg);
 </script>
 </body>
 </html>
